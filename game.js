@@ -6,7 +6,7 @@
     4: { name: "Loudoun County", image: "county.png" },
     8: { name: "Heritage", image: "heritage.jfif" },
     16: { name: "Stone Bridge", image: "stonebridge.jfif" },
-    32: { name: "Tuscarora", color: "#345e86" },
+    32: { name: "Tuscarora", image: "tusky.png" },
     64: { name: "Potomac Falls", color: "#7a3d43" },
     128: { name: "Freedom", color: "#be7e38" },
     256: { name: "Woodgrove", color: "#277044" },

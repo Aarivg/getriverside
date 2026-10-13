@@ -7,7 +7,7 @@
     8: { name: "Heritage", image: "heritage.jfif" },
     16: { name: "Stone Bridge", image: "stonebridge.jfif" },
     32: { name: "Tuscarora", image: "tusky.png" },
-    64: { name: "Potomac Falls", color: "#7a3d43" },
+    64: { name: "Potomac Falls", image: "potfalls.jpg" },
     128: { name: "Freedom", color: "#be7e38" },
     256: { name: "Woodgrove", color: "#277044" },
     512: { name: "Independence", color: "#ce2537" },

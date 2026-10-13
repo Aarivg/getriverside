@@ -15,3 +15,13 @@ Your current board and best score are saved in your browser.
 
 Dominion → Loudoun County → Heritage → Stone Bridge → Tuscarora → Potomac Falls
 → Freedom → Woodgrove → Independence → John Champe → Riverside.
+
+## Run locally
+
+No build step or dependencies are needed. From this repository, run:
+
+```sh
+python3 -m http.server 8000
+```
+
+Then open <http://localhost:8000/>.

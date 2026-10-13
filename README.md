@@ -10,3 +10,8 @@ Combine matching Loudoun County school tiles to reach Riverside High School.
 Use the arrow keys or swipe to move tiles. Matching schools merge into the next
 school and increase your score. Press Space or select **New game** to restart.
 Your current board and best score are saved in your browser.
+
+## School progression
+
+Dominion → Loudoun County → Heritage → Stone Bridge → Tuscarora → Potomac Falls
+→ Freedom → Woodgrove → Independence → John Champe → Riverside.

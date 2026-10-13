@@ -9,7 +9,7 @@
     32: { name: "Tuscarora", image: "tusky.png" },
     64: { name: "Potomac Falls", image: "potfalls.jpg" },
     128: { name: "Freedom", image: "freedom.png" },
-    256: { name: "Woodgrove", color: "#277044" },
+    256: { name: "Woodgrove", image: "woodgrove.png" },
     512: { name: "Independence", color: "#ce2537" },
     1024: { name: "John Champe", color: "#536eaa" },
     2048: { name: "Riverside!", color: "#d92930" }

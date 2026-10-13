@@ -3,7 +3,7 @@
 
   const schools = {
     2: { name: "Dominion", image: "dominion.png" },
-    4: { name: "Loudoun County", color: "#b4212c" },
+    4: { name: "Loudoun County", image: "county.png" },
     8: { name: "Heritage", color: "#6b4f8c" },
     16: { name: "Stone Bridge", color: "#244682" },
     32: { name: "Tuscarora", color: "#345e86" },

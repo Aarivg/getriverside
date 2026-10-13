@@ -12,7 +12,7 @@
     256: { name: "Woodgrove", image: "woodgrove.png" },
     512: { name: "Independence", image: "independence.png" },
     1024: { name: "John Champe", image: "champe.png" },
-    2048: { name: "Riverside!", color: "#d92930" }
+    2048: { name: "Riverside!", image: "riverside.png" }
   };
   const size = 4;
   const boardElement = document.getElementById("board");

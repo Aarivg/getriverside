@@ -4,7 +4,7 @@
   const schools = {
     2: { name: "Dominion", image: "dominion.png" },
     4: { name: "Loudoun County", image: "county.png" },
-    8: { name: "Heritage", color: "#6b4f8c" },
+    8: { name: "Heritage", image: "heritage.jfif" },
     16: { name: "Stone Bridge", color: "#244682" },
     32: { name: "Tuscarora", color: "#345e86" },
     64: { name: "Potomac Falls", color: "#7a3d43" },

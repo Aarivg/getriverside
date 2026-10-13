@@ -8,7 +8,7 @@
     16: { name: "Stone Bridge", image: "stonebridge.jfif" },
     32: { name: "Tuscarora", image: "tusky.png" },
     64: { name: "Potomac Falls", image: "potfalls.jpg" },
-    128: { name: "Freedom", color: "#be7e38" },
+    128: { name: "Freedom", image: "freedom.png" },
     256: { name: "Woodgrove", color: "#277044" },
     512: { name: "Independence", color: "#ce2537" },
     1024: { name: "John Champe", color: "#536eaa" },

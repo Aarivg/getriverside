@@ -1,7 +1,7 @@
 :root { color-scheme: dark; font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif; background: #333; }
 * { box-sizing: border-box; }
 html { min-height: 100%; }
-body { min-height: 100vh; margin: 0; padding: 28px 18px 40px; color: #f3f3f3; background: #333; }
+body { min-height: 100vh; margin: 0; padding: 28px 18px 40px; color: #f3f3f3; background: linear-gradient(#0005,#0005), url("./assets/bg.jpg") center center / cover fixed; }
 button { font: inherit; cursor: pointer; }
 button:focus-visible, a:focus-visible { outline: 3px solid #ffcf4d; outline-offset: 3px; }
 .shell { width: min(100%, 820px); margin: 0 auto; padding: 40px clamp(18px, 5vw, 72px) 28px; background: #282a2ceF; border: 1px solid #717171; border-top: 4px solid #e52629; border-radius: 0 0 6px 6px; box-shadow: 0 10px 32px #0008; }

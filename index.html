@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#252729">
+  <meta name="description" content="Combine Loudoun high school tiles to reach Riverside in this 2048-style puzzle.">
+  <title>GetRiverside! — Play the school tile puzzle</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./game.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <div>
+        <p class="eyebrow">A Loudoun school puzzle</p>
+        <h1>Get<span>Riverside!</span></h1>
+      </div>
+      <div class="scoreboard" aria-label="Game scores">
+        <div class="score-box"><span>Score</span><strong id="score">0</strong></div>
+        <div class="score-box"><span>Best</span><strong id="best">0</strong></div>
+      </div>
+    </header>
+
+    <div class="intro-row">
+      <p>Combine the other high schools to reach <strong>Riverside!</strong></p>
+      <button id="restart" class="restart" type="button" aria-label="Start a new game">New game</button>
+    </div>
+
+    <section class="game" aria-label="GetRiverside game">
+      <div id="board" class="board" role="grid" aria-label="Four by four school tile board"></div>
+      <div id="game-message" class="game-message" hidden>
+        <div class="message-card">
+          <h2 id="message-title"></h2>
+          <p id="message-copy"></p>
+          <div class="message-actions">
+            <button id="keep-playing" type="button" hidden>Keep playing</button>
+            <button id="try-again" type="button">Try again</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="controls" aria-label="Touch controls">
+      <button type="button" data-direction="up" aria-label="Move up">↑</button>
+      <div>
+        <button type="button" data-direction="left" aria-label="Move left">←</button>
+        <button type="button" data-direction="down" aria-label="Move down">↓</button>
+        <button type="button" data-direction="right" aria-label="Move right">→</button>
+      </div>
+    </div>
+
+    <div class="below">
+      <p><strong>How to play:</strong> Use your arrow keys or swipe to move tiles. Two matching schools merge into the next school. Press <kbd>Space</kbd> to start over.</p>
+      <p class="credit">A playable recreation of Carson Amos’s GetRiverside! <a href="https://web.archive.org/web/20250301171057/https://getriverside.com/" target="_blank" rel="noopener noreferrer">View the original archive</a></p>
+    </div>
+    <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>
